@@ -99,6 +99,7 @@ nav {
         }
     .NavSearchInput:focus{
         color: var(--secondary-high);
+        caret-color: var(--secondary-high);
     }
     .NavSearchButton{
         display: flex;

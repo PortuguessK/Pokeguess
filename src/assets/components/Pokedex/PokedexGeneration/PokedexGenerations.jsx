@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./PokedexGenerations.css";
 import { ArrowSvg } from "./svg/arrow";
-import { NewGeneration } from "./Generation1/PokedexGeneration";
+import { NewGeneration } from "./Generation/Generation";
 
 // eslint-disable-next-line react/prop-types
 export function PokedexGenerations({ Generation }) {
@@ -19,11 +19,7 @@ export function PokedexGenerations({ Generation }) {
           </button>
         </li>
         <li className="GenerationPokedexContainer">
-          <ul
-            className={
-              Deploy ? `GenerationPokedex Deployed` : `GenerationPokedex Deploy`
-            }
-          >
+          <ul className={Deploy ? `GenerationPokedex Deployed` : `GenerationPokedex Deploy`}>
             <NewGeneration sendGeneration={Generation} />
           </ul>
         </li>

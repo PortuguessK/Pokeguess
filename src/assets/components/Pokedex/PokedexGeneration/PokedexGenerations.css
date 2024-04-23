@@ -9,6 +9,9 @@
     list-style: none;
     box-shadow: 2px 0px 4px var(--primary-ultralow);
 }
+.GenerationContainer:hover{
+    background-color: #00000010;
+}
 .GenerationTitleContainer{
     display: flex;
     justify-content: space-between;
@@ -39,10 +42,25 @@
         opacity: 0.6;
     }
 .GenerationPokedexContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
     width: 100%;
     min-width: 1000px;
     max-width: 1440px;
+    background-color: var(--primary-ultralow);
 }
+.GenerationPokedex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 20px;
+    width: 70%;
+    padding: 40px 0px;
+}
+
 .Deploy {
     display: none;
 }

@@ -1,0 +1,102 @@
+.PokedexGeneration{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 150px;
+}
+.PokedexGeneration:hover{
+    cursor: pointer;
+    background-color: #00000030;
+}
+.PokedexGenerationInfo{
+    display: flex;
+    gap: 10px;
+    width: 100%;
+}
+.PokedexGeneration:hover .PokedexGenerationStrong{
+    font-weight: 700;
+}
+.PokedexGenerationInfoContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.PokedexGenerationStrong{
+    font-size: 18px;
+    font-weight: 500;
+}
+.PokedexGenerationType{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.Type{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 49%;
+    font-size: 12px;
+    border-radius: 2px;
+}
+  .normal{
+    background-color: var(--normal);
+  }
+  .fire{
+    background-color: var(--fire);
+  }
+  .water{
+    background-color: var(--water);
+  }
+  .electric{
+    background-color: var(--electric);
+  }
+  .grass{
+    background-color: var(--grass);
+  }
+  .ice{
+    background-color: var(--ice);
+  }
+  .fighting{
+    background-color: var(--fighting);
+  }
+  .poison{
+    background-color: var(--poison);
+  }
+  .ground{
+    background-color: var(--ground);
+  }
+  .flying{
+    background-color: var(--flying);
+  }
+  .psychic{
+    background-color: var(--psychic);
+  }
+  .bug{
+    background-color: var(--bug);
+  }
+  .rock{
+    background-color: var(--rock);
+  }
+  .ghost{
+    background-color: var(--ghost);
+  }
+  .dragon{
+    background-color: var(--dragon);
+  }
+  .dark{
+    background-color: var(--dark);
+  }
+  .steel{
+    background-color: var(--steel);
+  }
+  .fair{
+    background-color: var(--fair);
+  }
+  .undefined{
+    display: none;
+  }
