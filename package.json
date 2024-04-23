@@ -12,6 +12,8 @@
   "dependencies": {
     "@fontsource-variable/open-sans": "^5.0.28",
     "@fontsource-variable/pixelify-sans": "^5.0.2",
+    "@fontsource/fredoka-one": "^5.0.5",
+    "@fontsource/ibm-plex-mono": "^5.0.13",
     "@fontsource/merriweather": "^5.0.13",
     "@fontsource/press-start-2p": "^5.0.19",
     "react": "^18.2.0",

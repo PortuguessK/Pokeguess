@@ -14,7 +14,7 @@
 }
 .GenerationTitleContainer{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     width: 100%;
     min-width: 1000px;
@@ -38,9 +38,31 @@
         font-weight: 600;
         font-size: 48px;
         letter-spacing: 5px;
-        color: var(--bg-dark);
-        opacity: 0.6;
+        color: var(--bg-light);
+        opacity: 0.5;
     }
+    .activeTitle{
+        animation: animationTitle .8s forwards;
+    }
+    .desactiveTitle{
+        animation: backanimationTitle .8s forwards;
+    }
+@keyframes animationTitle {
+    0%{
+        transform: translateX(0px);
+    }
+    100%{
+        transform: translateX(500px);
+    }
+}
+@keyframes backanimationTitle {
+    0%{
+        transform: translateX(500px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
 .GenerationPokedexContainer{
     display: flex;
     justify-content: center;
@@ -56,14 +78,14 @@
     align-items: center;
     flex-wrap: wrap;
     list-style: none;
-    gap: 20px;
-    width: 70%;
+    gap: 40px;
+    width: 90%;
     padding: 40px 0px;
+    animation: animationToogleGeneration 1s forwards;
 }
 
 .Deploy {
     display: none;
 }
 .Deployed {
-    display: flex;
-}
+    display: flex;}

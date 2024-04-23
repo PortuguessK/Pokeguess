@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import "./Generation.css"
 export function NewGeneration({sendGeneration}) {
   const [currentPokemon, newPokemon] = useState([]);
@@ -78,6 +78,7 @@ export function NewGeneration({sendGeneration}) {
     const PokeUrl = Pokemon.sprite;
     const PokeType1 = Pokemon.type1
     const PokeType2 = Pokemon.type2
+    
     return (
       <li className="PokedexGeneration" key={PokeId}>
         <div className="PokedexGenerationSpriteContainer">

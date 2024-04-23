@@ -14,7 +14,7 @@ export function PokedexGenerations({ Generation }) {
       <ul className="GenerationContainer">
         <li className="GenerationTitleContainer">
           <button className="GenerationTitleButton" onClick={toggleDeploy}>
-            <h2 className="GenerationTitle"> {`GENERATION ${Generation}`}</h2>
+            <h2 className={Deploy ? `GenerationTitle activeTitle`: `GenerationTitle desactiveTitle`}> {`GENERATION ${Generation}`}</h2>
             <ArrowSvg Rotation={Deploy ? `down` : `right`} />
           </button>
         </li>
