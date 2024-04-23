@@ -1,0 +1,9 @@
+.ReverseSvg{
+    height: 25px;
+}
+#PathReverse1 {
+    transform-origin: 13px 17px;
+}
+#PathReverse2 {
+    transform-origin: 11px 7px;
+}

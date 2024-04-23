@@ -1,0 +1,11 @@
+.Search{
+    height: 50px;
+    width: 50px;
+    transition: fill .3s;
+}
+.SearchLight path{
+    fill: var(--secondary-high);
+}
+.SearchDark path{
+    fill: var(--secondary-low);
+}

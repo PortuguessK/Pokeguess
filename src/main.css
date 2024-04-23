@@ -1,0 +1,55 @@
+:root {
+  /* PRIMARY */
+  --primary: #D30A40;
+  --primary-low: #A50832;
+  --primary-ultralow: #820627;
+  --primary-high: #E50B45;
+  /* SECONDARY */
+  --secondary: #0AC4D1;
+  --secondary-low: #08A8B4;
+  --secondary-ultralow: #07858E;
+  --secondary-high: #11E5F4;
+  /* TERTIARY */
+  --tertiary: #0AD15A;
+  --tertiary-low: #08B44D;
+  --tertiary-high: #11F46C;
+  /*  */
+  --gray-poke: #D9D9D9;
+  --gray-poke-low: #808080;
+  --green-poke: #5FC480;
+  --green-shadow-poke: #5fc481d5;
+  --shadow: #00000050;
+  /* DARK */
+  --bg-dark: #222;
+  --bg-dark-hover: #444;
+  /* LIGHT */
+  --bg-light: #fff;
+  --bg-light-hover: #aaa;
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans Variable', sans-serif;
+}
+#root{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  caret-color: transparent;
+  width: 100%;
+  height: 100%;
+  gap: 40px;
+}
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--bg-dark);
+  color: var(--clP-dark);
+}
+.TDark {
+  color: var(--bg-light);
+}

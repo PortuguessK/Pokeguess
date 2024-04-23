@@ -1,0 +1,138 @@
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-width: 1000px;
+  max-width: 1440px;
+  height: 100px;
+}
+nav {
+  display: flex;
+  height: 100%;
+  min-width: 1000px;
+  width: 100%;
+  background-color: var(--primary-high);
+  border-radius: 0px 0px 8px 8px;
+}
+.NavMenuBigContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 790px;
+  height: 100%;
+}
+.NavMenuContainer {
+  width: 100%;
+  height: 70px;
+  max-width: 720px;
+  background-color: var(--primary-low);
+}
+.NavMenu {
+  display: flex;
+  list-style: none;
+}
+    .NavMenuItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 180px;
+    height: 70px;
+    }
+    .NavMenuItemButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 180px;
+    height: 70px;
+    background-color: var(--primary-high);
+    border: none;
+    font-size: 28px;
+    font-weight: 700;
+    transition: color 0.4s;
+    gap: 10px
+    }
+    .NavMenuItemButtonDark{
+        color: var(--bg-light);
+        transition: color 0.6s;
+    }
+    .NavMenuItemButtonLight{
+        color: var(--bg-dark);
+        transition: color 0.6s;
+    }
+    .NavMenuItemButton:hover {
+    cursor: pointer;
+    color: var(--secondary);
+    }
+.NavSearchContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 650px;
+}
+.NavSearch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    max-width: 650px;
+    height: 70px;
+    }
+    .NavSearchInput{
+        display: flex;
+        width: 100%;
+        max-width: 505px;
+        height: 70px;
+        border: none;
+        outline: none;
+        background-color: var(--primary-low);
+        border-radius: 8px 0px 0px 8px;
+        padding: 20px;
+        font-size: 2em;
+        font-weight: 500;
+        color: var(--secondary);
+        }
+    .NavSearchInput:focus{
+        color: var(--secondary-high);
+    }
+    .NavSearchButton{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        max-width: 70px;
+        height: 70px;
+        border: none;
+        outline: none;
+        border-radius: 0px 8px 8px 0px;
+        transition: background .3s;
+        cursor: pointer;
+        }
+        .NavSearchButtonDark{
+            background-color: var(--bg-dark);
+        }
+        .NavSearchButtonDark:hover{
+            background-color: var(--bg-dark-hover);
+        }   
+        .NavSearchButtonLight{
+            background-color: var(--bg-light);
+        }
+        .NavSearchButtonLight:hover{
+            background-color: var(--bg-light-hover);
+        } 
+        .NavSearchButton:hover .SearchDark path,
+        .NavSearchButton:active .SearchDark path{
+            cursor: pointer;
+            fill: var(--secondary-high);
+        }
+        .NavSearchButton:hover .SearchLight path,
+        .NavSearchButton:active .SearchLight path
+        {
+            cursor: pointer;
+            fill: var(--secondary-low);
+        }

@@ -1,0 +1,15 @@
+.ArrowSvg{
+    justify-self: end;
+    height: 50px;
+}
+.ArrowSvg path{
+    fill: var(--secondary-low);
+}
+.right{
+    rotate: 0deg;
+    transition: rotate .5s;
+}
+.down{
+    rotate: 90deg;
+    transition: rotate .5s;
+}

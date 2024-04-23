@@ -1,0 +1,23 @@
+.DarkModeSvg{
+    height: 45px;
+    width: 45px;
+}
+.ModePath{
+    transition: .5s;
+}
+.MoonDark{
+    fill: var(--secondary-low);
+}
+.MoonLight{
+    fill: var(--primary-low);
+}
+.LightModeSvg{
+    height: 40px;
+    width: 40px;
+}
+.SunDark{
+    fill: var(--primary-low);
+}
+.SunLight{
+    fill: var(--secondary-high);
+}

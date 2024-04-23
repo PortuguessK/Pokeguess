@@ -1,0 +1,51 @@
+.GenerationContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-width: 1000px;
+    max-width: 1440px;
+    list-style: none;
+    box-shadow: 2px 0px 4px var(--primary-ultralow);
+}
+.GenerationTitleContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    min-width: 1000px;
+    max-width: 1440px;
+    height: 90px;
+    padding: 10px;
+}
+.GenerationTitleButton{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    min-width: 1000px;
+    max-width: 1440px;
+    height: 90px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+    .GenerationTitle{
+        font-weight: 600;
+        font-size: 48px;
+        letter-spacing: 5px;
+        color: var(--bg-dark);
+        opacity: 0.6;
+    }
+.GenerationPokedexContainer{
+    width: 100%;
+    min-width: 1000px;
+    max-width: 1440px;
+}
+.Deploy {
+    display: none;
+}
+.Deployed {
+    display: flex;
+}
